@@ -4,7 +4,7 @@ import Button from './Button'
 
 export default function Hero() {
    return (
-      <section className='flex flex-col gap-20 py-10 pb-32 max-container padding-container md:gap-28 lg:py-20 xl:flex-row'>
+      <section className='flex flex-col py-10 pb-32 gap-20 max-container padding-container md:gap-28 lg:py-20 xl:flex-row'>
          <div className='hero-map' />
 
          {/* Left */}
@@ -51,17 +51,17 @@ export default function Hero() {
                      <p className='regular-16 text-gray-20'>Location</p>
                      <Image src='/close.svg' alt='close' width={24} height={24} />
                   </div>
-                  <p className='text-white bold-20'>Labuhan Bajo</p>
+                  <p className='text-white bold-20'>Rinjani Mount</p>
                </div>
 
                <div className='flexBetween'>
                   <div className='flex flex-col'>
                      <p className='block regular-16 text-gray-20'>Distance</p>
-                     <p className='text-white bold-20'>173.28 mi</p>
+                     <p className='text-white bold-20'>32 km</p>
                   </div>
                   <div className='flex flex-col'>
                      <p className='block regular-16 text-gray-20'>Elevation</p>
-                     <p className='text-white bold-20'>2.040 km</p>
+                     <p className='text-white bold-20'>3.726 m</p>
                   </div>
                </div>
             </div>

@@ -9,7 +9,13 @@ export default function Navbar() {
    return (
       <nav className='relative z-30 py-5 flexBetween max-container padding-container'>
          <Link href={'/'}>
-            <Image src={'/hilink-logo.svg'} alt='Hilink Logo' width={74} height={29} />
+            <Image
+               src={'/hilink-logo.svg'}
+               alt='Hilink Logo'
+               width={74}
+               height={29}
+               className='w-auto h-auto'
+            />
          </Link>
 
          <ul className='hidden h-full gap-12 lg:flex'>
