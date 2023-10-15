@@ -50,7 +50,7 @@ export const FOOTER_LINKS = [
    },
    {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink for Business', 'Hilink for Education'],
    },
 ]
 
@@ -58,7 +58,7 @@ export const FOOTER_CONTACT_INFO = {
    title: 'Contact Us',
    links: [
       { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Email Officer', value: 'hilink@business.com' },
    ],
 }
 
